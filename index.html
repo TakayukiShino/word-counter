@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文字数カウンター</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>文字数カウンター</h1>
+    <p>文章を入力して、文字数を確認できます。</p>
+    <label for="text-input">数えたい文章</label>
+    <textarea id="text-input" rows="8" placeholder="ここに文章を入力してください"></textarea>
+    <p>文字数：<output id="character-count">0</output></p>
+    <button id="clear-button" type="button">クリア</button>
+  </main>
+</body>
+</html>
